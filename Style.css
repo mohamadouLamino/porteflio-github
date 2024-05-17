@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'inter', sans-serif,;
+    }
+    .slider{
+        width:100%;
+      min-height:80vh;
+      aspect-ratio: 16/9;
+        background: black;
+        position: relative;
+    }
+    .slider-background {
+        width:100%;
+        height:100%;
+        object-fit: cover;
+        filter: brightness(20%);
+    }
+    .slider-content {
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        text-align: center;
+    }
+    h1{
+        color: white;
+        font-size:5rem;
+    }
+    h2{
+        font-size:2rem;
+        margin-bottom: 50px;
+    }
+    p{
+        font-size:1.5rem;
+        line-height:1.5em;
+    }
+.slider-content p{
+    color: #fff;
+    font-size:2rem;
+    font-weight: 300;
+}
+.section{
+    padding: 100px 0;
+}
+.boxed{
+    max-width:1280px;
+    margin-inline:auto;
+}
+.flex{
+    display:flex;
+}
+.W40{
+    width:40%;
+}
+.W60{
+    width:60%;
+}
+
+.section-dark{
+    background:black;
+    color: #fff;
+}
+
+.text-center{
+    text-align: center;
+}
+.W25{
+width:25%;
+}
+.W32{
+    width:32%;
+}
+.space-between{
+    justify-content: space-between;
+}
+.gap20{
+    gap: 20px;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.skill{
+    background:#fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+.skill img{
+width: 50px;
+height: 50px;
+aspect-ratio:1/1;
+object-fit:contain;
+}
+.skill h3{
+    margin-top:10px;
+}
+.realisations{
+height: auto;
+aspect-ratio:1/1;
+position: relative;
+ }
+.realisations a{
+    display:block;
+    width:100%;
+    height:100%;
+    text-decoration: none;
+    color: #fff;
+}
+.realisations h3{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform:translate(-50%,  -50%);
+    font-size: 2rem;
+    width: max-content;
+    opacity:0;
+    transition: .4s ease;
+}
+
+
+.realisations img{
+    width:80%;
+    height:80%;
+    object-fit: cover;
+    filter: brightness(20%);
+    
+}
+.realisations:hover img{
+    filter: brightness(60%);
+}
+
+}
+.contactez moi img{
+    width: -20%;
+    height:-20%;
+    object-fit: cover;
+    filter: brightness(20%);
+}
